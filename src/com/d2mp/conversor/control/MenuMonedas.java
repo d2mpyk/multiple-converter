@@ -76,7 +76,7 @@ public class MenuMonedas implements Menu{
                     System.out.println("| El resultado de convertir: "
                             +monto+" "+monedaBase
                             +" a "+result.getTarget_code()
-                            +" es: "+conversion+line2);
+                            +" es: "+conversion+line2+result.getTarget_code());
                 } catch (InputMismatchException | NumberFormatException e) {
                     System.out.print("\nError: Valor incorrecto, intente de nuevo\n");
                 }
