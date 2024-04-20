@@ -6,21 +6,21 @@
 
 ## Tabla de Contenidos
 
-1. [Menú Principal](#menu-principal)
+1. [Menú Principal](#menú-principal)
 
-2. [Menú Monedas](#menu-monedas)
+2. [Menú Monedas](#menú-monedas)
 
-   2.1. [Menú Conversión de Monedas](#menu-conversion-monedas)
+   2.1. [Menú Conversión de Monedas](#menú-conversión-de-monedas)
 
-   2.2. [Resultado de Conversión de Monedas](#resultado-conversion-monedas)
+   2.2. [Resultado de Conversión de Monedas](#resultado-de-conversión-de-monedas)
 
-3. [Menú Temperaturas](#menu-temperaturas)
+3. [Menú Temperaturas](#menú-temperaturas)
    
-    3.1. [Menú Conversión de Temperaturas](#menu-conversion-temperaturas)
+    3.1. [Menú Conversión de Temperaturas](#menú-conversión-de-temperaturas)
 
-    3.2. [Resultado de Conversión de Temperaturas](#resultado-conversion-temperaturas)
+    3.2. [Resultado de Conversión de Temperaturas](#resultado-de-conversión-de-temperaturas)
 
-4. [Menú Medidas](#menu-medidas)
+4. [Menú Medidas](#menú-medidas)
 
 ### Menú Principal
 ***
@@ -30,7 +30,7 @@
 ***
 <img alt="Menú Monedas" height="300" src=".\src\com\d2mp\conversor\images\menu-monedas.png" width="500" />
 
-### Menú Conversión de Monedas 
+### Menú Conversión de Monedas
 ***
 <img alt="Menú Conversión de Monedas" height="600" src=".\src\com\d2mp\conversor\images\menu-conversion-monedas.png" width="500" />
 
