@@ -2,7 +2,7 @@
 
 # Multiple Java Conversor 
 ***
-#### Simple Aplicación, con menús tipo consola, para convertir monedas, temperaturas y distancias, basado en Java en POO y consumo de API
+#### Simple Aplicación, con menús tipo consola, para convertir monedas, temperaturas y distancias, basado en Java con POO y consumo de API
 
 ## Tabla de Contenidos
 

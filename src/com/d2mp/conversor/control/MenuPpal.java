@@ -14,8 +14,13 @@ public class MenuPpal implements Menu{
         Scanner scanner = new Scanner(System.in);
 
         try {
-            System.out.println(line+"| Opciones de Conversión"+line+"| 1.- Convertir Monedas\n| 2.- Convertir Temperaturas\n| 3.- Convertir Medidas\n| 9.- Salir"+line);
-            System.out.print("Escoja una opción: ");
+            System.out.printf("%s| Opciones de Conversión %s" +
+                    "| 1.- Convertir Monedas\n" +
+                    "| 2.- Convertir Temperaturas\n" +
+                    "| 3.- Convertir Medidas\n" +
+                    "| \n" +
+                    "| 9.- Salir %s", line, line, line);
+            System.out.print("\nEscoja una opción: ");
             opcion = scanner.nextInt();
         } catch (InputMismatchException | NumberFormatException e) {
             System.out.print("\nError: ");
@@ -25,20 +30,23 @@ public class MenuPpal implements Menu{
             case 1:
                 MenuMonedas menuMonedas = new MenuMonedas();
                 int menu1 = 0;
-                while(menu1 != 9){
+                while(menu1 != 90){
                     menu1 = menuMonedas.showMenu();
                 }
                 break;
             case 2:
                 MenuTemperaturas menuTemperaturas = new MenuTemperaturas();
                 int menu2 = 0;
-                while(menu2 != 9){
+                while(menu2 != 90){
                     menu2 = menuTemperaturas.showMenu();
                 }
                 break;
             case 3:
-                System.out.print(line+"| Bienvenido al Convertidor de Medidas"+line);
-                System.out.println("| En Desarrollo..."+line);
+                MenuBits menuBits = new MenuBits();
+                int menu3 = 0;
+                while(menu3 != 90){
+                    menu3 = menuBits.showMenu();
+                }
                 break;
             case 9:
                 System.out.println("\n   ¡Muchas gracias por usar este Convertidor, que tenga un buen día!\n");
