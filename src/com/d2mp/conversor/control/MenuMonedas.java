@@ -79,8 +79,8 @@ public class MenuMonedas implements Menu{
                         conversion = conversion*result.getConversion_rate();
                     }
                     System.out.printf("%s| A la fecha: %s", line2, search.unixToDate(result.getTime_last_update_unix()));
-                    System.out.printf("%s| El resultado de convertir: %5.2f %s a %s es %5.2f %s%s",
-                            line2, monto, monedaBase, result.getTarget_code(), conversion, result.getTarget_code(), line2);
+                    System.out.printf("%s| Resultado: %5.2f %s son %5.2f %s%s",
+                            line2, monto, monedaBase, conversion, result.getTarget_code(), line2);
                 } catch (InputMismatchException | NumberFormatException e) {
                     System.out.print("\nError: Valor incorrecto, intente de nuevo\n");
                 }
